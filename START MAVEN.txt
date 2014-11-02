@@ -1,0 +1,6 @@
+"%CATALINA_HOME% = C:\Program Files\apache-tomcat-7.0.56
+
+"%CATALINA_HOME%\bin\startup.bat"
+"%CATALINA_HOME%\bin\shutdown.bat"
+
+C:\Program Files\apache-tomcat-7.0.56\conf\server.xml - line with 8080
