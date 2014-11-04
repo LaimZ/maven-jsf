@@ -14,4 +14,13 @@ This is a simple Maven (and Eclipse) Tomcat JSF project. For 03 NOV 2014 it does
 
 Now you can go to [http://localhost:8080/JavaServerFaces/hello.xhtml](http://localhost:8080/JavaServerFaces/hello.xhtml "http://localhost:8080/JavaServerFaces/hello.xhtml") and see your form! Before next copying don't forget to shutdown **Tomcat Server** : **"%CATALINA_HOME%\bin\shutdown.bat"**.
 
+To deploy it from Eclipse For Java EE you need:
+- Import this project as Maven project
+- Near button Run press arrow and click **Run Configurations**, select **Maven Build** and create new with Right Mouse Button. Set goal as tomcat7:redeploy and Base directory as project root directory. User settings as ........\apache-maven-3.2.3\conf\settings.xml.
+
+Note, that tomcat server should be runned as asministrator in this case and straight from this directory, no any %CATALINA_HOME%, for example 
+```
+C:\.....\tomcat....\bin\>startup.bat
+```
+
 This project was created step-by-step, according to [http://www.mkyong.com/jsf2/jsf-2-0-hello-world-example/](http://localhost:8080/JavaServerFaces/hello.xhtml "http://localhost:8080/JavaServerFaces/hello.xhtml"), thanks very much!
