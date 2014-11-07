@@ -1,0 +1,97 @@
+body {
+   background: #121212 url(images/bg.jpg); 
+   color: #CCC;  /* sans-serif 13px */
+   font-family: "sans-serif";
+   font-size: 13px;
+   font-weight: 400;
+   LINK: #CC00FF;
+  }
+
+ 
+#container {
+            /*background: #121212;*/
+            margin: 8px auto;
+            width: auto;
+            height: auto;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #ffe200;
+}
+
+
+#header {
+            /*background: #121212;*/
+            /*  margin: 2px 2px;  */
+            height: auto;
+            font-size: 15px;
+            width: auto;
+}
+
+
+#navigation {
+            /*background: #121212;*/
+            width: auto;
+            height: 20px;
+}
+
+
+#menu {
+            /*background: #121212;*/
+            float: left;
+            width: 100;
+            height: auto;
+}
+ 
+
+#content {
+            /*background: #121212; */ /* url(images/bg.jpg);  */
+            color: #CCC;  /* sans-serif 13px */
+            font-family: "Arial"; 
+            font-size: 13px;
+            font-weight: 400;
+            margin-left: 100px;
+            /*float: right;*/
+            width: auto; /* 760px */
+            height: auto;
+}
+
+#style2{
+            
+            color: #FFFF00;  /* sans-serif 13px */  font-style: italic;
+            /* font-family: "sans-serif"; */
+            /* font-size: 13px; */
+}
+
+#style1{
+            /* text-align: left; margin: 0px; */
+}
+
+#style12{
+            
+            color: #CC00FF;  /* sans-serif 13px */  font-style: italic;
+            /* font-family: "sans-serif"; */
+            /* font-size: 13px; */
+}
+
+
+#style_blue{
+            
+            color: #0000FF;  /* sans-serif 13px */  font-style: italic;
+            /* font-family: "sans-serif"; */
+            /* font-size: 13px; */
+} 
+
+#clear {
+            clear:both;
+}
+
+
+#footer {
+            /* background: #121212; */
+            height: 180px;
+            width: auto;
+}
+p{ text-align: left; margin: 0px; }
+
+span.yellow { color: #FFFF00; font-style: italic; }
+span.blue { color: #0000FF; font-style: italic; }

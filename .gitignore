@@ -3,7 +3,12 @@
 #.classpath
 #.project
 #.settings/
-#classes/
+classes/
+
+# Commons
+CODE/
+FILES/
+WebContent*
 
 # Intellij
 .idea/
